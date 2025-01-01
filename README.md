@@ -5,6 +5,28 @@ Automated Test Suite for Java Application
 Description
 This project consists of an automated test suite for a Java application, using JUnit and TestNG. The tests validate different API endpoints, handle authentication, and log results. CI/CD integration with GitHub Actions ensures continuous testing on code changes.
 
+
+
+# Automated Test Suite for Java Application
+
+## Description
+
+This project consists of an automated test suite for a Java application, using JUnit and TestNG. The tests validate different API endpoints, handle authentication, and log results. CI/CD integration with GitHub Actions ensures continuous testing on code changes.
+
+## Features
+
+- **Automated Testing**: Uses JUnit/TestNG to test API endpoints.
+- **CI/CD Integration**: GitHub Actions for continuous testing.
+- **Logging**: Request and response details are logged to files.
+- **Token Authentication**: Handles token generation and management.
+  
+## Setup
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/your-project-name.git
+   cd your-project-name
+
 Features
 Automated Testing: Uses JUnit/TestNG to test API endpoints.
 CI/CD Integration: GitHub Actions for continuous testing.
