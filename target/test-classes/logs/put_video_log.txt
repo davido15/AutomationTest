@@ -1,0 +1,18 @@
+Request: Video{id='1', category='Platform', name='Super Mario', rating='Mature', releaseDate='2012-06-01', reviewScore=90}
+Response: {"id":1,"name":"Super Mario","releaseDate":"2012-06-01","reviewScore":90,"category":"Platform","rating":"Mature"}
+Request: Video{id='1', category='Platform', name='Super Mario', rating='Mature', releaseDate='2012-06-01', reviewScore=90}
+Response: {"id":1,"name":"Super Mario","releaseDate":"2012-06-01","reviewScore":90,"category":"Platform","rating":"Mature"}
+Request: Video{id='1', category='Platform', name='Super Mario', rating='Mature', releaseDate='2012-06-01', reviewScore=90}
+Response: {"id":1,"name":"Super Mario","releaseDate":"2012-06-01","reviewScore":90,"category":"Platform","rating":"Mature"}
+Request: Video{id='1', category='Platform', name='Super Mario', rating='Mature', releaseDate='2012-06-01', reviewScore=90}
+Response: {"id":1,"name":"Super Mario","releaseDate":"2012-06-01","reviewScore":90,"category":"Platform","rating":"Mature"}
+Request: Video{id='1', category='Platform', name='Super Mario', rating='Mature', releaseDate='2012-06-01', reviewScore=90}
+Response: {"id":1,"name":"Super Mario","releaseDate":"2012-06-01","reviewScore":90,"category":"Platform","rating":"Mature"}
+Request: Video{id='1', category='Platform', name='Super Mario', rating='Mature', releaseDate='2012-06-01', reviewScore=90}
+Response: {"id":1,"name":"Super Mario","releaseDate":"2012-06-01","reviewScore":90,"category":"Platform","rating":"Mature"}
+Request: Video{id='1', category='Platform', name='Super Mario', rating='Mature', releaseDate='2012-06-01', reviewScore=90}
+Response: {"id":1,"name":"Super Mario","releaseDate":"2012-06-01","reviewScore":90,"category":"Platform","rating":"Mature"}
+Request: Video{id='1', category='Platform', name='Super Mario', rating='Mature', releaseDate='2012-06-01', reviewScore=90}
+Response: {"id":1,"name":"Super Mario","releaseDate":"2012-06-01","reviewScore":90,"category":"Platform","rating":"Mature"}
+Request: Video{id='1', category='Platform', name='Super Mario', rating='Mature', releaseDate='2012-06-01', reviewScore=90}
+Response: {"id":1,"name":"Super Mario","releaseDate":"2012-06-01","reviewScore":90,"category":"Platform","rating":"Mature"}

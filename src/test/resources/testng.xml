@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+    <listeners>
+        <!-- Ensure the package path is correct for ExtentReportManager -->
+        <listener class-name="api.utilities.ExtentReportManager" />
+    </listeners>
+    
+    <test name="Testservice">
+        <classes>
+            <!-- Ensure the class path is correct for your test class -->
+            <class name="api.tests.UserTests" />
+        </classes>
+    </test>
+    
+    
+    
+</suite>
+

@@ -1,0 +1,10 @@
+/Users/daviddornyoh/Documents/AutomationTesting/src/test/java/api/endpoints/AuthService.java
+/Users/daviddornyoh/Documents/AutomationTesting/src/test/java/api/endpoints/Routes.java
+/Users/daviddornyoh/Documents/AutomationTesting/src/test/java/api/endpoints/VideoService.java
+/Users/daviddornyoh/Documents/AutomationTesting/src/test/java/api/payload/Video.java
+/Users/daviddornyoh/Documents/AutomationTesting/src/test/java/api/tests/AuthServiceTest.java
+/Users/daviddornyoh/Documents/AutomationTesting/src/test/java/api/tests/VideoServiceDD.java
+/Users/daviddornyoh/Documents/AutomationTesting/src/test/java/api/tests/VideoServiceTest.java
+/Users/daviddornyoh/Documents/AutomationTesting/src/test/java/api/utilities/DataProvider.java
+/Users/daviddornyoh/Documents/AutomationTesting/src/test/java/api/utilities/ExtentReportManager.java
+/Users/daviddornyoh/Documents/AutomationTesting/src/test/java/api/utilities/XLUtility.java

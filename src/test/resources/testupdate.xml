@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="AuthSuite">
+    <listeners>
+        <listener class-name="api.utilities.ExtentReportManager" />
+    </listeners>
+
+    <test name="AuthTest">
+        <classes>
+            <class name="api.tests.AuthServiceTest" />
+        </classes>
+    </test>
+    
+       <test name="ServiceTest">
+        <classes>
+            <class name="api.tests.VideoServiceTest" />
+        </classes>
+    </test>
+    
+        <test name="ExcelTest">
+        <classes>
+            <class name="api.tests.VideoServiceDD" />
+        </classes>
+    </test>
+    
+    
+    
+</suite>
