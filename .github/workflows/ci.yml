@@ -3,10 +3,10 @@ name: Java CI
 on:
   push:
     branches:
-      - main      # Trigger CI on push to the main branch
+      - master      # Trigger CI on push to the master branch
   pull_request:
     branches:
-      - main      # Trigger CI on pull requests targeting the main branch
+      - master      # Trigger CI on pull requests targeting the main branch
 
 jobs:
   build:
