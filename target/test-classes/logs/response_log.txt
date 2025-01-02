@@ -22,3 +22,5 @@ Request: Video{id='147', category='Platform', name='Mario', rating='Mature', rel
 Response: {"id":0,"name":"Mario","releaseDate":"2012-05-04","reviewScore":89,"category":"Platform","rating":"Mature"}
 Request: Video{id='147', category='Platform', name='Mario', rating='Mature', releaseDate='2012-05-04', reviewScore=89}
 Response: {"id":0,"name":"Mario","releaseDate":"2012-05-04","reviewScore":89,"category":"Platform","rating":"Mature"}
+Request: Video{id='147', category='Platform', name='Mario', rating='Mature', releaseDate='2012-05-04', reviewScore=89}
+Response: {"id":0,"name":"Mario","releaseDate":"2012-05-04","reviewScore":89,"category":"Platform","rating":"Mature"}
