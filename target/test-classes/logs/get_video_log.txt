@@ -16,3 +16,9 @@ Request: GET https://www.videogamedb.uk:443/api/videogame/1
 Response: {"id":1,"name":"Resident Evil 4","releaseDate":"2005-10-01 23:59:59","reviewScore":85,"category":"Shooter","rating":"Universal"}
 Request: GET https://www.videogamedb.uk:443/api/videogame/1
 Response: {"id":1,"name":"Resident Evil 4","releaseDate":"2005-10-01 23:59:59","reviewScore":85,"category":"Shooter","rating":"Universal"}
+Request: GET https://www.videogamedb.uk:443/api/videogame/1
+Response: {"id":1,"name":"Resident Evil 4","releaseDate":"2005-10-01 23:59:59","reviewScore":85,"category":"Shooter","rating":"Universal"}
+Request: GET https://www.videogamedb.uk:443/api/videogame/1
+Response: {"id":1,"name":"Resident Evil 4","releaseDate":"2005-10-01 23:59:59","reviewScore":85,"category":"Shooter","rating":"Universal"}
+Request: GET https://www.videogamedb.uk:443/api/videogame/1
+Response: {"id":1,"name":"Resident Evil 4","releaseDate":"2005-10-01 23:59:59","reviewScore":85,"category":"Shooter","rating":"Universal"}

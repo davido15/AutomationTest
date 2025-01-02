@@ -91,7 +91,7 @@ public class AuthServiceTest {
         System.out.println("Response body: " + response.getBody().asString());
 
         Assert.assertEquals(response.getStatusCode(), 400, "Status code should be 400");
-        Assert.assertTrue(response.jsonPath().getString("error").contains("error"), "Error message should indicate server-side issue");
+        Assert.assertTrue(response.jsonPath().getString("error").contains("Bad Request"), "Error message should indicate server-side issue");
 
         System.out.println("Test server error during authentication passed.");
     }

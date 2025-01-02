@@ -1,12 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 16, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 12.382 s <<< FAILURE! - in TestSuite
-testServerErrorDuringAuthentication(api.tests.AuthServiceTest)  Time elapsed: 0.572 s  <<< FAILURE!
-java.lang.AssertionError: Error message should indicate server-side issue expected [true] but found [false]
-	at api.tests.AuthServiceTest.testServerErrorDuringAuthentication(AuthServiceTest.java:94)
-
-testPostVideoWithInvalidToken(api.tests.VideoServiceTest)  Time elapsed: 0.557 s  <<< FAILURE!
-java.lang.AssertionError: Expected 401 Unauthorized status code expected [401] but found [500]
-	at api.tests.VideoServiceTest.testPostVideoWithInvalidToken(VideoServiceTest.java:207)
-
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.15 s -- in TestSuite
