@@ -9,9 +9,7 @@ public class VideoService {
     // Get Video by ID
     public Response getVideoById(String videoId) {
         // Ensure the token is available
-        String token =  "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczNTc2NzkxOSwiZXhwIjoxNzM1NzcxNTE5fQ.Au0zzT6efwPwVHk0_hPFD5cT7bLOfc_LzLOhHt5IHRo";// AuthService.getToken(); // Retrieve the token directly
-        
-        
+        String token =  "";// AuthService.getToken(); // Retrieve the token directly
                       
 
         Response response = RestAssured.given()
