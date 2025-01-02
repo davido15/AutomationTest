@@ -29,8 +29,9 @@ This repository contains automated API tests for the Video Service API, which al
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/your-project-name.git
-   cd your-project-name
+   git clone https://github.com/davido15/AutomationTest.git
+   cd AutomationTest
+
    ```
 
 2. **Install Dependencies**:
