@@ -19,31 +19,41 @@ public class Routes {
     }
 
     // Base URL (from properties)
-    public static String baseUrl = properties.getProperty("base.url");
+    public static String baseUrl = properties.getProperty("base_url");
 
     // Video model endpoints
     public static String getVideoByIdUrl(String videoId) {
-        return baseUrl + properties.getProperty("video.getById.url") + videoId;
+        String fullUrl = baseUrl + properties.getProperty("video.getById.url") + videoId;
+        System.out.println("Full URL for Get Video by ID: " + fullUrl);  // Print the full URL for debugging
+        return fullUrl;  // Return the full URL as a string
     }
 
     public static String postVideoUrl() {
-        return baseUrl + properties.getProperty("video.post.url");
+        String fullUrl = baseUrl + properties.getProperty("video.post.url");
+        System.out.println("Full URL for Post Video: " + fullUrl);  // Print the full URL for debugging
+        return fullUrl;  // Return the full URL as a string
     }
 
     public static String updateVideoUrl(String videoId) {
-        return baseUrl + properties.getProperty("video.update.url") + videoId;
+        String fullUrl = baseUrl + properties.getProperty("video.update.url") + videoId;
+        System.out.println("Full URL for Update Video: " + fullUrl);  // Print the full URL for debugging
+        return fullUrl;  // Return the full URL as a string
     }
 
     public static String deleteVideoUrl(String videoId) {
-        return baseUrl + properties.getProperty("video.delete.url") + videoId;
+        String fullUrl = baseUrl + properties.getProperty("video.delete.url") + videoId;
+        System.out.println("Full URL for Delete Video: " + fullUrl);  // Print the full URL for debugging
+        return fullUrl;  // Return the full URL as a string
     }
 
     // Method to get the Authorization header
     public static String getAuthHeader() {
-        return "Bearer " + api.endpoints.AuthService.getToken();
+        return "Bearer " + api.endpoints.AuthService.getToken();  // Return Authorization header
     }
 
     public static String getAuthUrl() {
-        return baseUrl + properties.getProperty("auth.url");
+        String fullUrl = baseUrl + properties.getProperty("auth.url");
+        System.out.println("Full URL for Auth: " + fullUrl);  // Print the full URL for debugging
+        return fullUrl;  // Return the full URL as a string
     }
 }

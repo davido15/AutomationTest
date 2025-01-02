@@ -1,137 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-02T11:20:06 GMT" name="AuthSuite" finished-at="2025-01-02T11:20:19 GMT" duration-ms="13609">
+  <suite started-at="2025-01-02T12:28:04 GMT" name="AuthSuite" finished-at="2025-01-02T12:28:13 GMT" duration-ms="8909">
     <groups>
     </groups>
-    <test started-at="2025-01-02T11:20:06 GMT" name="AuthTest" finished-at="2025-01-02T11:20:11 GMT" duration-ms="5242">
+    <test started-at="2025-01-02T12:28:04 GMT" name="AuthTest" finished-at="2025-01-02T12:28:06 GMT" duration-ms="2514">
       <class name="api.tests.AuthServiceTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:api.tests.AuthServiceTest@dbf57b3]" started-at="2025-01-02T11:20:06 GMT" name="setup" finished-at="2025-01-02T11:20:06 GMT" duration-ms="208" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.tests.AuthServiceTest@dbf57b3]" started-at="2025-01-02T12:28:04 GMT" name="setup" finished-at="2025-01-02T12:28:04 GMT" duration-ms="142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testSuccessfulAuthentication()[pri:1, instance:api.tests.AuthServiceTest@dbf57b3]" started-at="2025-01-02T11:20:06 GMT" name="testSuccessfulAuthentication" finished-at="2025-01-02T11:20:10 GMT" duration-ms="3722" status="PASS">
+        <test-method signature="testSuccessfulAuthentication()[pri:1, instance:api.tests.AuthServiceTest@dbf57b3]" started-at="2025-01-02T12:28:04 GMT" name="testSuccessfulAuthentication" finished-at="2025-01-02T12:28:05 GMT" duration-ms="1278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSuccessfulAuthentication -->
-        <test-method signature="testAuthenticationWithInvalidCredentials()[pri:2, instance:api.tests.AuthServiceTest@dbf57b3]" started-at="2025-01-02T11:20:10 GMT" name="testAuthenticationWithInvalidCredentials" finished-at="2025-01-02T11:20:10 GMT" duration-ms="529" status="PASS">
+        <test-method signature="testAuthenticationWithInvalidCredentials()[pri:2, instance:api.tests.AuthServiceTest@dbf57b3]" started-at="2025-01-02T12:28:05 GMT" name="testAuthenticationWithInvalidCredentials" finished-at="2025-01-02T12:28:06 GMT" duration-ms="478" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAuthenticationWithInvalidCredentials -->
-        <test-method signature="testServerErrorDuringAuthentication()[pri:3, instance:api.tests.AuthServiceTest@dbf57b3]" started-at="2025-01-02T11:20:10 GMT" name="testServerErrorDuringAuthentication" finished-at="2025-01-02T11:20:11 GMT" duration-ms="629" status="PASS">
+        <test-method signature="testServerErrorDuringAuthentication()[pri:3, instance:api.tests.AuthServiceTest@dbf57b3]" started-at="2025-01-02T12:28:06 GMT" name="testServerErrorDuringAuthentication" finished-at="2025-01-02T12:28:06 GMT" duration-ms="503" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testServerErrorDuringAuthentication -->
       </class> <!-- api.tests.AuthServiceTest -->
     </test> <!-- AuthTest -->
-    <test started-at="2025-01-02T11:20:11 GMT" name="ServiceTest" finished-at="2025-01-02T11:20:16 GMT" duration-ms="4948">
+    <test started-at="2025-01-02T12:28:07 GMT" name="ServiceTest" finished-at="2025-01-02T12:28:10 GMT" duration-ms="3343">
       <class name="api.tests.VideoServiceTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:api.tests.VideoServiceTest@36902638]" started-at="2025-01-02T11:20:11 GMT" name="setUp" finished-at="2025-01-02T11:20:11 GMT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.tests.VideoServiceTest@49ec71f8]" started-at="2025-01-02T12:28:07 GMT" name="setUp" finished-at="2025-01-02T12:28:07 GMT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testPostVideo()[pri:1, instance:api.tests.VideoServiceTest@36902638]" started-at="2025-01-02T11:20:11 GMT" name="testPostVideo" finished-at="2025-01-02T11:20:12 GMT" duration-ms="1144" status="PASS">
+        <test-method signature="testPostVideo()[pri:1, instance:api.tests.VideoServiceTest@49ec71f8]" started-at="2025-01-02T12:28:07 GMT" name="testPostVideo" finished-at="2025-01-02T12:28:08 GMT" duration-ms="993" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPostVideo -->
-        <test-method signature="testGetVideoById()[pri:2, instance:api.tests.VideoServiceTest@36902638]" started-at="2025-01-02T11:20:12 GMT" name="testGetVideoById" finished-at="2025-01-02T11:20:13 GMT" duration-ms="571" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.tests.VideoServiceTest@49ec71f8]" started-at="2025-01-02T12:28:08 GMT" name="setUp" finished-at="2025-01-02T12:28:08 GMT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetVideoById()[pri:2, instance:api.tests.VideoServiceTest@49ec71f8]" started-at="2025-01-02T12:28:08 GMT" name="testGetVideoById" finished-at="2025-01-02T12:28:08 GMT" duration-ms="443" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetVideoById -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:api.tests.VideoServiceTest@36902638]" started-at="2025-01-02T11:20:12 GMT" name="setUp" finished-at="2025-01-02T11:20:12 GMT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testPutVideo()[pri:3, instance:api.tests.VideoServiceTest@36902638]" started-at="2025-01-02T11:20:13 GMT" name="testPutVideo" finished-at="2025-01-02T11:20:14 GMT" duration-ms="578" status="PASS">
+        <test-method signature="testPutVideo()[pri:3, instance:api.tests.VideoServiceTest@49ec71f8]" started-at="2025-01-02T12:28:08 GMT" name="testPutVideo" finished-at="2025-01-02T12:28:09 GMT" duration-ms="487" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPutVideo -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:api.tests.VideoServiceTest@36902638]" started-at="2025-01-02T11:20:13 GMT" name="setUp" finished-at="2025-01-02T11:20:13 GMT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.tests.VideoServiceTest@49ec71f8]" started-at="2025-01-02T12:28:08 GMT" name="setUp" finished-at="2025-01-02T12:28:08 GMT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:api.tests.VideoServiceTest@36902638]" started-at="2025-01-02T11:20:14 GMT" name="setUp" finished-at="2025-01-02T11:20:14 GMT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.tests.VideoServiceTest@49ec71f8]" started-at="2025-01-02T12:28:09 GMT" name="setUp" finished-at="2025-01-02T12:28:09 GMT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testDeleteVideo()[pri:4, instance:api.tests.VideoServiceTest@36902638]" started-at="2025-01-02T11:20:14 GMT" name="testDeleteVideo" finished-at="2025-01-02T11:20:14 GMT" duration-ms="575" status="PASS">
+        <test-method signature="testDeleteVideo()[pri:4, instance:api.tests.VideoServiceTest@49ec71f8]" started-at="2025-01-02T12:28:09 GMT" name="testDeleteVideo" finished-at="2025-01-02T12:28:09 GMT" duration-ms="452" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteVideo -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:api.tests.VideoServiceTest@36902638]" started-at="2025-01-02T11:20:14 GMT" name="setUp" finished-at="2025-01-02T11:20:14 GMT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.tests.VideoServiceTest@49ec71f8]" started-at="2025-01-02T12:28:09 GMT" name="setUp" finished-at="2025-01-02T12:28:09 GMT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testPostVideoWithInvalidToken()[pri:5, instance:api.tests.VideoServiceTest@36902638]" started-at="2025-01-02T11:20:14 GMT" name="testPostVideoWithInvalidToken" finished-at="2025-01-02T11:20:15 GMT" duration-ms="522" status="PASS">
+        <test-method signature="testPostVideoWithInvalidToken()[pri:5, instance:api.tests.VideoServiceTest@49ec71f8]" started-at="2025-01-02T12:28:09 GMT" name="testPostVideoWithInvalidToken" finished-at="2025-01-02T12:28:10 GMT" duration-ms="466" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPostVideoWithInvalidToken -->
-        <test-method signature="testPostVideoWithMissingFields()[pri:6, instance:api.tests.VideoServiceTest@36902638]" started-at="2025-01-02T11:20:15 GMT" name="testPostVideoWithMissingFields" finished-at="2025-01-02T11:20:15 GMT" duration-ms="511" status="PASS">
+        <test-method signature="testPostVideoWithMissingFields()[pri:6, instance:api.tests.VideoServiceTest@49ec71f8]" started-at="2025-01-02T12:28:10 GMT" name="testPostVideoWithMissingFields" finished-at="2025-01-02T12:28:10 GMT" duration-ms="488" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPostVideoWithMissingFields -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:api.tests.VideoServiceTest@36902638]" started-at="2025-01-02T11:20:15 GMT" name="setUp" finished-at="2025-01-02T11:20:15 GMT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.tests.VideoServiceTest@49ec71f8]" started-at="2025-01-02T12:28:10 GMT" name="setUp" finished-at="2025-01-02T12:28:10 GMT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testPostVideoWithInvalidDataFormat()[pri:7, instance:api.tests.VideoServiceTest@36902638]" started-at="2025-01-02T11:20:15 GMT" name="testPostVideoWithInvalidDataFormat" finished-at="2025-01-02T11:20:16 GMT" duration-ms="475" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testPostVideoWithInvalidDataFormat -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:api.tests.VideoServiceTest@36902638]" started-at="2025-01-02T11:20:15 GMT" name="setUp" finished-at="2025-01-02T11:20:15 GMT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:api.tests.VideoServiceTest@36902638]" started-at="2025-01-02T11:20:16 GMT" name="setUp" finished-at="2025-01-02T11:20:16 GMT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testGetNonExistentVideoById()[pri:8, instance:api.tests.VideoServiceTest@36902638]" started-at="2025-01-02T11:20:16 GMT" name="testGetNonExistentVideoById" finished-at="2025-01-02T11:20:16 GMT" duration-ms="554" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetNonExistentVideoById -->
       </class> <!-- api.tests.VideoServiceTest -->
     </test> <!-- ServiceTest -->
-    <test started-at="2025-01-02T11:20:16 GMT" name="ExcelTest" finished-at="2025-01-02T11:20:19 GMT" duration-ms="3208">
+    <test started-at="2025-01-02T12:28:10 GMT" name="ExcelTest" finished-at="2025-01-02T12:28:13 GMT" duration-ms="2842">
       <class name="api.tests.VideoServiceDD">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:api.tests.VideoServiceDD@77847718]" started-at="2025-01-02T11:20:16 GMT" name="setUp" finished-at="2025-01-02T11:20:17 GMT" duration-ms="287" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.tests.VideoServiceDD@131774fe]" started-at="2025-01-02T12:28:10 GMT" name="setUp" finished-at="2025-01-02T12:28:10 GMT" duration-ms="272" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testPostVideo()[pri:1, instance:api.tests.VideoServiceDD@77847718]" started-at="2025-01-02T11:20:17 GMT" name="testPostVideo" finished-at="2025-01-02T11:20:17 GMT" duration-ms="574" status="PASS">
+        <test-method signature="testPostVideo()[pri:1, instance:api.tests.VideoServiceDD@131774fe]" started-at="2025-01-02T12:28:10 GMT" name="testPostVideo" finished-at="2025-01-02T12:28:11 GMT" duration-ms="540" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPostVideo -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:api.tests.VideoServiceDD@77847718]" started-at="2025-01-02T11:20:17 GMT" name="setUp" finished-at="2025-01-02T11:20:17 GMT" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.tests.VideoServiceDD@131774fe]" started-at="2025-01-02T12:28:11 GMT" name="setUp" finished-at="2025-01-02T12:28:11 GMT" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testGetVideoById()[pri:2, instance:api.tests.VideoServiceDD@77847718]" started-at="2025-01-02T11:20:17 GMT" name="testGetVideoById" finished-at="2025-01-02T11:20:18 GMT" duration-ms="578" status="PASS">
+        <test-method signature="testGetVideoById()[pri:2, instance:api.tests.VideoServiceDD@131774fe]" started-at="2025-01-02T12:28:11 GMT" name="testGetVideoById" finished-at="2025-01-02T12:28:11 GMT" duration-ms="497" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetVideoById -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:api.tests.VideoServiceDD@77847718]" started-at="2025-01-02T11:20:18 GMT" name="setUp" finished-at="2025-01-02T11:20:18 GMT" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.tests.VideoServiceDD@131774fe]" started-at="2025-01-02T12:28:11 GMT" name="setUp" finished-at="2025-01-02T12:28:11 GMT" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testPutVideo()[pri:3, instance:api.tests.VideoServiceDD@77847718]" started-at="2025-01-02T11:20:18 GMT" name="testPutVideo" finished-at="2025-01-02T11:20:18 GMT" duration-ms="572" status="PASS">
+        <test-method signature="testPutVideo()[pri:3, instance:api.tests.VideoServiceDD@131774fe]" started-at="2025-01-02T12:28:11 GMT" name="testPutVideo" finished-at="2025-01-02T12:28:12 GMT" duration-ms="473" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPutVideo -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:api.tests.VideoServiceDD@77847718]" started-at="2025-01-02T11:20:18 GMT" name="setUp" finished-at="2025-01-02T11:20:18 GMT" duration-ms="12" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.tests.VideoServiceDD@131774fe]" started-at="2025-01-02T12:28:12 GMT" name="setUp" finished-at="2025-01-02T12:28:12 GMT" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testDeleteVideo()[pri:4, instance:api.tests.VideoServiceDD@77847718]" started-at="2025-01-02T11:20:18 GMT" name="testDeleteVideo" finished-at="2025-01-02T11:20:19 GMT" duration-ms="579" status="PASS">
+        <test-method signature="testDeleteVideo()[pri:4, instance:api.tests.VideoServiceDD@131774fe]" started-at="2025-01-02T12:28:12 GMT" name="testDeleteVideo" finished-at="2025-01-02T12:28:12 GMT" duration-ms="492" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteVideo -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:api.tests.VideoServiceDD@77847718]" started-at="2025-01-02T11:20:19 GMT" name="setUp" finished-at="2025-01-02T11:20:19 GMT" duration-ms="15" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.tests.VideoServiceDD@131774fe]" started-at="2025-01-02T12:28:12 GMT" name="setUp" finished-at="2025-01-02T12:28:12 GMT" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testInvalidPostVideo()[pri:5, instance:api.tests.VideoServiceDD@77847718]" started-at="2025-01-02T11:20:19 GMT" name="testInvalidPostVideo" finished-at="2025-01-02T11:20:19 GMT" duration-ms="561" status="PASS">
+        <test-method signature="testInvalidPostVideo()[pri:5, instance:api.tests.VideoServiceDD@131774fe]" started-at="2025-01-02T12:28:12 GMT" name="testInvalidPostVideo" finished-at="2025-01-02T12:28:13 GMT" duration-ms="508" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidPostVideo -->

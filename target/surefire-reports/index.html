@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">16 methods,   16 passed</span>
+                    <span class="method-stats">14 methods,   14 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -118,11 +118,6 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-AuthSuite" title="api.tests.VideoServiceTest" class="method navigator-link" hash-for-method="testGetNonExistentVideoById">testGetNonExistentVideoById</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-AuthSuite" title="api.tests.VideoServiceTest" class="method navigator-link" hash-for-method="testGetVideoById">testGetVideoById</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -144,11 +139,6 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-AuthSuite" title="api.tests.VideoServiceDD" class="method navigator-link" hash-for-method="testPostVideo">testPostVideo</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-AuthSuite" title="api.tests.VideoServiceTest" class="method navigator-link" hash-for-method="testPostVideoWithInvalidDataFormat">testPostVideoWithInvalidDataFormat</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -280,13 +270,6 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testGetNonExistentVideoById">
-                  </a> <!-- testGetNonExistentVideoById -->
-                  <span class="method-name">testGetNonExistentVideoById</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="testGetVideoById">
                   </a> <!-- testGetVideoById -->
                   <span class="method-name">testGetVideoById</span>
@@ -297,13 +280,6 @@
                   <a name="testPostVideo">
                   </a> <!-- testPostVideo -->
                   <span class="method-name">testPostVideo</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testPostVideoWithInvalidDataFormat">
-                  </a> <!-- testPostVideoWithInvalidDataFormat -->
-                  <span class="method-name">testPostVideoWithInvalidDataFormat</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -400,76 +376,68 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(16);
+data.addRows(14);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testSuccessfulAuthentication')
 data.setCell(0, 2, 'api.tests.AuthServiceTest')
-data.setCell(0, 3, 3722);
+data.setCell(0, 3, 1278);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testPostVideo')
 data.setCell(1, 2, 'api.tests.VideoServiceTest')
-data.setCell(1, 3, 1144);
+data.setCell(1, 3, 993);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testServerErrorDuringAuthentication')
-data.setCell(2, 2, 'api.tests.AuthServiceTest')
-data.setCell(2, 3, 629);
+data.setCell(2, 1, 'testPostVideo')
+data.setCell(2, 2, 'api.tests.VideoServiceDD')
+data.setCell(2, 3, 540);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testDeleteVideo')
+data.setCell(3, 1, 'testInvalidPostVideo')
 data.setCell(3, 2, 'api.tests.VideoServiceDD')
-data.setCell(3, 3, 579);
+data.setCell(3, 3, 508);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testPutVideo')
-data.setCell(4, 2, 'api.tests.VideoServiceTest')
-data.setCell(4, 3, 578);
+data.setCell(4, 1, 'testServerErrorDuringAuthentication')
+data.setCell(4, 2, 'api.tests.AuthServiceTest')
+data.setCell(4, 3, 503);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'testGetVideoById')
 data.setCell(5, 2, 'api.tests.VideoServiceDD')
-data.setCell(5, 3, 578);
+data.setCell(5, 3, 497);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'testDeleteVideo')
-data.setCell(6, 2, 'api.tests.VideoServiceTest')
-data.setCell(6, 3, 575);
+data.setCell(6, 2, 'api.tests.VideoServiceDD')
+data.setCell(6, 3, 492);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'testPostVideo')
-data.setCell(7, 2, 'api.tests.VideoServiceDD')
-data.setCell(7, 3, 574);
+data.setCell(7, 1, 'testPostVideoWithMissingFields')
+data.setCell(7, 2, 'api.tests.VideoServiceTest')
+data.setCell(7, 3, 488);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'testPutVideo')
-data.setCell(8, 2, 'api.tests.VideoServiceDD')
-data.setCell(8, 3, 572);
+data.setCell(8, 2, 'api.tests.VideoServiceTest')
+data.setCell(8, 3, 487);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'testGetVideoById')
-data.setCell(9, 2, 'api.tests.VideoServiceTest')
-data.setCell(9, 3, 571);
+data.setCell(9, 1, 'testAuthenticationWithInvalidCredentials')
+data.setCell(9, 2, 'api.tests.AuthServiceTest')
+data.setCell(9, 3, 478);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'testInvalidPostVideo')
+data.setCell(10, 1, 'testPutVideo')
 data.setCell(10, 2, 'api.tests.VideoServiceDD')
-data.setCell(10, 3, 561);
+data.setCell(10, 3, 473);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'testGetNonExistentVideoById')
+data.setCell(11, 1, 'testPostVideoWithInvalidToken')
 data.setCell(11, 2, 'api.tests.VideoServiceTest')
-data.setCell(11, 3, 554);
+data.setCell(11, 3, 466);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'testAuthenticationWithInvalidCredentials')
-data.setCell(12, 2, 'api.tests.AuthServiceTest')
-data.setCell(12, 3, 529);
+data.setCell(12, 1, 'testDeleteVideo')
+data.setCell(12, 2, 'api.tests.VideoServiceTest')
+data.setCell(12, 3, 452);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'testPostVideoWithInvalidToken')
+data.setCell(13, 1, 'testGetVideoById')
 data.setCell(13, 2, 'api.tests.VideoServiceTest')
-data.setCell(13, 3, 522);
-data.setCell(14, 0, 14)
-data.setCell(14, 1, 'testPostVideoWithMissingFields')
-data.setCell(14, 2, 'api.tests.VideoServiceTest')
-data.setCell(14, 3, 511);
-data.setCell(15, 0, 15)
-data.setCell(15, 1, 'testPostVideoWithInvalidDataFormat')
-data.setCell(15, 2, 'api.tests.VideoServiceTest')
-data.setCell(15, 3, 475);
+data.setCell(13, 3, 443);
 window.suiteTableData['AuthSuite']= { tableData: data, tableDiv: 'times-div-AuthSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 12 seconds</span>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
               <div id="times-div-AuthSuite">
               </div> <!-- times-div-AuthSuite -->
             </div> <!-- times-div -->
@@ -502,125 +470,109 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testSuccessfulAuthentication</span>
-                <span class="method-start">213 ms</span>
+                <span class="method-start">146 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testAuthenticationWithInvalidCredentials</span>
-                <span class="method-start">3937 ms</span>
+                <span class="method-start">1426 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testServerErrorDuringAuthentication</span>
-                <span class="method-start">4467 ms</span>
+                <span class="method-start">1905 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">api.tests.VideoServiceTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">5287 ms</span>
+                <span class="method-start">2599 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testPostVideo</span>
-                <span class="method-start">5288 ms</span>
+                <span class="method-start">2600 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3594 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testGetVideoById</span>
-                <span class="method-start">6434 ms</span>
+                <span class="method-start">3595 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">6434 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">7007 ms</span>
+                <span class="method-start">4040 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testPutVideo</span>
-                <span class="method-start">7007 ms</span>
+                <span class="method-start">4040 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">7586 ms</span>
+                <span class="method-start">4529 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testDeleteVideo</span>
-                <span class="method-start">7587 ms</span>
+                <span class="method-start">4530 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">8163 ms</span>
+                <span class="method-start">4983 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testPostVideoWithInvalidToken</span>
-                <span class="method-start">8164 ms</span>
+                <span class="method-start">4984 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">8688 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testPostVideoWithMissingFields</span>
-                <span class="method-start">8688 ms</span>
+                <span class="method-start">5452 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">9201 ms</span>
+                <span class="method-start">5452 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">testPostVideoWithInvalidDataFormat</span>
-                <span class="method-start">9201 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">9677 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">testGetNonExistentVideoById</span>
-                <span class="method-start">9678 ms</span>
-              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">api.tests.VideoServiceDD</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">10256 ms</span>
+                <span class="method-start">5963 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testPostVideo</span>
-                <span class="method-start">10543 ms</span>
+                <span class="method-start">6235 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">11117 ms</span>
+                <span class="method-start">6777 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testGetVideoById</span>
-                <span class="method-start">11130 ms</span>
+                <span class="method-start">6792 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">11709 ms</span>
+                <span class="method-start">7290 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testPutVideo</span>
-                <span class="method-start">11723 ms</span>
+                <span class="method-start">7304 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">12296 ms</span>
+                <span class="method-start">7778 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testDeleteVideo</span>
-                <span class="method-start">12308 ms</span>
+                <span class="method-start">7792 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">12888 ms</span>
+                <span class="method-start">8285 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testInvalidPostVideo</span>
-                <span class="method-start">12903 ms</span>
+                <span class="method-start">8295 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

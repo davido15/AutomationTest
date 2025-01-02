@@ -1,8 +1,8 @@
 package api.tests;
 
-import api.endpoints.VideoService;
 import api.payload.Video;
 import api.endpoints.AuthService;
+import api.endpoints.Routes;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -18,16 +18,12 @@ import java.io.FileInputStream;
 
 public class VideoServiceDD {
 
-    private VideoService videoService;
     private XSSFWorkbook workbook;
     private Sheet sheet;
     private FileOutputStream fileOut;
 
     @BeforeMethod
     public void setUp() throws IOException {
-        // Initialize the service before each test
-        videoService = new VideoService();
-
         // Initialize Excel File
         File file = new File("src/test/resources/test_results.xlsx");
 
@@ -108,8 +104,8 @@ public class VideoServiceDD {
         video.setReviewScore(89);
         video.setId("147");
 
-        // Hardcoded POST Video URL
-        String postVideoUrl = "https://www.videogamedb.uk:443/api/videogame";
+        // Use Routes class to get the full POST Video URL
+        String postVideoUrl = Routes.postVideoUrl();
 
         // Get the token dynamically from AuthService
         String authToken = getAuthToken();
@@ -136,8 +132,8 @@ public class VideoServiceDD {
     public void testGetVideoById() throws IOException {
         String videoId = "1";
         
-        // Hardcoded GET Video URL
-        String getVideoUrl = "https://www.videogamedb.uk:443/api/videogame/" + videoId;
+        // Use Routes class to get the full GET Video URL
+        String getVideoUrl = Routes.getVideoByIdUrl(videoId);
 
         // Get the token dynamically from AuthService
         String authToken = getAuthToken();
@@ -171,8 +167,8 @@ public class VideoServiceDD {
 
         String videoId = "1";
         
-        // Hardcoded PUT Video URL
-        String putVideoUrl = "https://www.videogamedb.uk:443/api/videogame/" + videoId;
+        // Use Routes class to get the full PUT Video URL
+        String putVideoUrl = Routes.updateVideoUrl(videoId);
 
         // Get the token dynamically from AuthService
         String authToken = getAuthToken();
@@ -199,8 +195,8 @@ public class VideoServiceDD {
     public void testDeleteVideo() throws IOException {
         String videoId = "1";
         
-        // Hardcoded DELETE Video URL
-        String deleteVideoUrl = "https://www.videogamedb.uk:443/api/videogame/" + videoId;
+        // Use Routes class to get the full DELETE Video URL
+        String deleteVideoUrl = Routes.deleteVideoUrl(videoId);
 
         // Get the token dynamically from AuthService
         String authToken = getAuthToken();
@@ -226,8 +222,8 @@ public class VideoServiceDD {
         // Test with invalid JSON body
         String invalidVideoJson = createInvalidVideoJson();
 
-        // Hardcoded POST Video URL
-        String postVideoUrl = "https://www.videogamedb.uk:443/api/videogame";
+        // Use Routes class to get the full POST Video URL
+        String postVideoUrl = Routes.postVideoUrl();
 
         // Get the token dynamically from AuthService
         String authToken = getAuthToken();
