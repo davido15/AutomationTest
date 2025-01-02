@@ -71,43 +71,6 @@ The project requires the following dependencies:
 
 These dependencies are automatically handled by Maven during the `mvn install` command. Ensure that your `pom.xml` file includes the following (or equivalent) dependencies:
 
-```xml
-<dependencies>
-    <!-- TestNG for unit testing -->
-    <dependency>
-        <groupId>org.testng</groupId>
-        <artifactId>testng</artifactId>
-        <version>7.3.0</version>
-        <scope>test</scope>
-    </dependency>
-
-    <!-- RestAssured for API testing -->
-    <dependency>
-        <groupId>io.rest-assured</groupId>
-        <artifactId>rest-assured</artifactId>
-        <version>4.4.0</version>
-        <scope>test</scope>
-    </dependency>
-
-    <!-- Apache POI for Excel file handling -->
-    <dependency>
-        <groupId>org.apache.poi</groupId>
-        <artifactId>poi</artifactId>
-        <version>5.2.3</version>
-    </dependency>
-
-    <!-- Logging dependency -->
-    <dependency>
-        <groupId>org.slf4j</groupId>
-        <artifactId>slf4j-api</artifactId>
-        <version>1.7.32</version>
-    </dependency>
-
-    <!-- Other dependencies -->
-</dependencies>
-```
-
----
 
 ## Create a Test Results File
 
